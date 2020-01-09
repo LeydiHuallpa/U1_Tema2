@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">U1Tema2</string>
+    <item name="activity_mi_recycler_view" type="id" />
 </resources>

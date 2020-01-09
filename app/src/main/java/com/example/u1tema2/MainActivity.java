@@ -44,6 +44,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this, Permisos.class));
             return true;
         }
+        if (id == R.id.activity_mi_recycler_view) {
+            startActivity(new Intent(this, MiRecyclerView.class));
+            return true;
+        }
 
         if (id == R.id.activity_intenciones) {
             startActivity(new Intent(this, intenciones.class));
@@ -52,4 +56,4 @@ public class MainActivity extends AppCompatActivity {
             return super.onOptionsItemSelected(item);
         }
 
-    }
+}
