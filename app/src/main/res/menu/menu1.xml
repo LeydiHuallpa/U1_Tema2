@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/ tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/accion_compartir"
+        android:icon="@android:drawable/ic_menu_share"
+        android:orderInCategory="1"
+        android:title="Compartir"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/activity_intenciones"
+        android:orderInCategory="3"
+        android:title="Intenciones" />
+    <item
+        android:id="@+id/activity_multimedia"
+        android:orderInCategory="4"
+        android:title="Multimedia" />
+    <item
+        android:id="@+id/activity_permisos"
+        android:orderInCategory="2"
+        android:title="Permisos" />
+    <item
+        android:id="@+id/accion_salir"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:orderInCategory="2"
+        android:title="Salir"
+        app:showAsAction="always" />
+</menu>
+
+
