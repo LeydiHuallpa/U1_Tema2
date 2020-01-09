@@ -36,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
             finish();
             return true;
         }
+        if (id == R.id.activity_multimedia) {
+            startActivity(new Intent(this, Multimedia.class));
+            return true;
+        }
+
         if (id == R.id.activity_intenciones) {
             startActivity(new Intent(this, intenciones.class));
             return true;
