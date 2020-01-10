@@ -15,11 +15,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MiFragmentTabhost"></activity>
-        <activity android:name=".MiRecyclerView" />
+        <activity android:name=".FragmentTabHost.MiFragmentTabhost"></activity>
+        <activity android:name=".mirecyclerview.MiRecyclerView" />
         <activity android:name=".Permisos" />
-        <activity android:name=".Multimedia2" />
-        <activity android:name=".Multimedia" />
+        <activity android:name=".Multimedia.Multimedia2" />
+        <activity android:name=".Multimedia.Multimedia" />
         <activity android:name=".intenciones" />
         <activity android:name=".MainActivity">
             <intent-filter>

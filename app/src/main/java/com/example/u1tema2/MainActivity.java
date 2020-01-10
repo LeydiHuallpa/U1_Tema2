@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.u1tema2.FragmentTabHost.MiFragmentTabhost;
+import com.example.u1tema2.Multimedia.Multimedia;
+import com.example.u1tema2.mirecyclerview.MiRecyclerView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
