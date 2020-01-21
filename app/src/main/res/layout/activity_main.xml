@@ -11,11 +11,11 @@
         android:id="@+id/toolbar"
         android:layout_width="411dp"
         android:layout_height="714dp"
-        android:background="@color/colorAccent"
+        android:background="@color/colorman3"
         android:minHeight="?attr/actionBarSize"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="8dp" />
 
     <TextView
         android:layout_width="wrap_content"
